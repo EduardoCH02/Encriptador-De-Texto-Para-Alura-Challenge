@@ -1,0 +1,53 @@
+Encriptador de Texto | Challenge ONE 2024
+Descripción
+Este proyecto es una aplicación web desarrollada como parte del Challenge ONE 2024, en colaboración entre Oracle y Alura. La aplicación permite encriptar y desencriptar textos utilizando el cifrado César, una técnica clásica de cifrado en la que cada letra del texto es desplazada un número fijo de posiciones en el alfabeto.
+
+Funcionalidades
+Encriptación de Texto:
+
+La aplicación utiliza el cifrado César con un desplazamiento fijo de 3 posiciones.
+Permite encriptar textos en letras minúsculas, transformando cada letra en otra que se encuentra a 3 posiciones más adelante en el alfabeto.
+Desencriptación de Texto:
+
+Convierte el texto encriptado de vuelta a su forma original usando el mismo desplazamiento fijo, pero en sentido inverso.
+Interfaz de Usuario:
+
+La página cuenta con un área de texto para introducir el mensaje a encriptar o desencriptar.
+Botones para encriptar, desencriptar y copiar el texto al portapapeles.
+Mensajes informativos y de error para mejorar la experiencia del usuario.
+Reglas de Encriptación
+Desplazamiento: Se utiliza un desplazamiento de 3 posiciones en el cifrado César.
+Letras Permitidas: Solo se permiten letras minúsculas. Las letras mayúsculas se convierten a minúsculas antes del proceso.
+Caracteres Especiales: Los caracteres especiales, acentos y espacios se mantienen sin cambios.
+Requisitos
+El texto a encriptar o desencriptar debe estar en minúsculas.
+No se permiten letras con acentos ni caracteres especiales en el texto de entrada.
+Instrucciones de Uso
+Encriptar Texto:
+
+Escriba el texto que desea encriptar en el área de texto.
+Haga clic en el botón "Encriptar".
+El texto encriptado aparecerá en el área de mensaje.
+Desencriptar Texto:
+
+Escriba el texto encriptado en el área de texto.
+Haga clic en el botón "Desencriptar".
+El texto desencriptado aparecerá en el área de mensaje.
+Copiar Texto:
+
+Una vez que el texto ha sido encriptado o desencriptado, haga clic en el botón "Copiar" para copiar el texto al portapapeles.
+Ejemplos
+Texto Original: hola
+
+Texto Encriptado: krod
+Texto Desencriptado: hola
+Texto Original: mundo
+
+Texto Encriptado: pxqgr
+Texto Desencriptado: mundo
+Tecnologías Utilizadas
+HTML
+CSS
+JavaScript
+Autor
+Eduardo Charbel Gallegos Aguiñaga
